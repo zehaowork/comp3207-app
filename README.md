@@ -1,4 +1,6 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project is developed for the Cloud Application Coursework, it uses the serverless architecture. The backend services are provided by Azure Funtions and persistent data storage are provided by Azure Table Storage. The frontend of the website is built using React.
+
+The public address for this website is : https://comp3207zee.azurewebsites.net
 
 ## Available Scripts
 
