@@ -1,0 +1,35 @@
+{
+  "bindings": [
+    {
+      "authLevel": "function",
+      "type": "httpTrigger",
+      "direction": "in",
+      "name": "req",
+      "methods": [
+        "get",
+        "post"
+      ]
+    },
+    {
+      "type": "http",
+      "direction": "out",
+      "name": "res"
+    },
+    {
+      "type": "table",
+      "name": "relationEntity",
+      "tableName": "Relation",
+      "filter": "(PartitionKey eq '{email}')",
+      "connection": "comp3207zehaofub1b4_STORAGE",
+      "direction": "in"
+    },
+    {
+      "type": "table",
+      "name": "userEntity",
+      "tableName": "User",
+      "connection": "comp3207zehaofub1b4_STORAGE",
+      "direction": "in"
+    }
+  ],
+  "disabled": false
+}

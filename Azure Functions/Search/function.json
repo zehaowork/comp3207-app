@@ -1,0 +1,29 @@
+﻿{
+  "bindings": [
+    {
+      "authLevel": "function",
+      "type": "httpTrigger",
+      "direction": "in",
+      "name": "req",
+      "methods": [
+        "get",
+        "post"
+      ]
+    },
+    {
+      "type": "http",
+      "direction": "out",
+      "name": "res"
+    },
+    {
+      "type": "table",
+      "name": "userEntity",
+      "tableName": "User",
+      "partitionKey": "UK",
+      "rowKey": "{email}",
+      "connection": "comp3207zehaofub1b4_STORAGE",
+      "direction": "in"
+    }
+  ],
+  "disabled": false
+}
