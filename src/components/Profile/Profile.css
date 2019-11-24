@@ -1,0 +1,20 @@
+.profileCard {
+  margin-top: 10px;
+  text-align: center;
+}
+
+.userTweets {
+  margin-top: 20px;
+  height: 400px;
+  overflow: scroll;
+  background-color: #9be3de;
+  margin: 10px;
+  border-radius: 15px;
+}
+
+.profile {
+  background-color: #9be3de;
+
+  margin: 10px;
+  border-radius: 15px;
+}

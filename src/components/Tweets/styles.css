@@ -1,0 +1,36 @@
+.profileImg {
+  vertical-align: middle;
+  margin-right: 10px;
+  width: 50px;
+  min-width: 50px;
+  height: 50px;
+  border-radius: 20%;
+}
+
+.userName {
+  padding-left: 0.5em;
+  font-weight: bold;
+  font-size: 14;
+  color: black;
+}
+.Time {
+  padding-left: 0.5em;
+  color: white;
+  font-size: 14;
+}
+.tweet {
+  background-color: #85c0bb;
+  width: 420px;
+  border: 1px solid #ccc;
+  min-height: 100px;
+  padding: 20px;
+  display: flex;
+  font-family: "Helvetica", arial, sans-serif;
+  font-size: 14px;
+  line-height: 18px;
+}
+
+.Content {
+  padding-top: 0.5em;
+  padding-left: 0.4em;
+}
